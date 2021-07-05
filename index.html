@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJackGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="help.html"><button class="help">HELP?</button></a>
+        <div class="wrapper">
+            <h2>BlackJack</h2>
+            <h3><span id="heading">Let's Play</span></h3>
+            <div class="container">
+                <div class="scoreboard">
+                    <div class="yourbox">
+                        <h2 id="yourheading">
+                            You: <span id="yourscore">0</span>
+                        </h2>
+                    </div>
+                    <div class="dealerbox">
+                        <h2 id="dealerheading">
+                            Dealer: <span id="dealerscore">0</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="buttonsection">
+                    <div class="buttoncover">
+                        <div class="innercover"> 
+                            <button class="hit">Hit</button>
+                            <button class="stand">Stand</button>
+                            <button class="deal">Deal</button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="resultTable"> 
+                <table class="tablecover">
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </table>   
+            </div> 
+        </div>  
+<script src="script.js"></script>
+</body>
+</html>
